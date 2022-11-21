@@ -11,6 +11,7 @@ namespace hw_5
         static void Main(string[] args)
         {
             double x = calc(2, -2, 3) + calc(3, -3, 5) + calc(5, -5, 7);
+            Console.WriteLine(x);
             Console.ReadKey();  
         }
         static double calc(double a, double b, double c)
