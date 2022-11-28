@@ -16,7 +16,7 @@ namespace hw_5
         }
         static double calc(double a, double b, double c)
         {
-            return Math.Sqrt(a + Math.Pow(Math.E, b) / c);
+            return Math.Sqrt((a + Math.Pow(Math.E, b))/ c);
         }
     }
 }
