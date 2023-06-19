@@ -7,5 +7,4 @@ using System.Threading.Tasks;
 namespace Army
 {
     public enum TypeOfService { Contract, Urgent }
-
 }
